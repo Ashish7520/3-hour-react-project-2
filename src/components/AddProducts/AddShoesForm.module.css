@@ -1,0 +1,46 @@
+form {
+  display: grid;
+}
+
+label {
+  color: #507dbc;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 85%;
+  position: relative;
+  left: 50px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+button {
+  margin-top: 20px;
+  width: 70px;
+  position: relative;
+  left: 45%;
+  border-radius: 10px;
+  background-color: #bbd1ea;
+  color: #507dbc;
+  font-weight: 600;
+}
+
+button :hover :active {
+  background-color: aqua;
+}
+
+div {
+  display: flex;
+}
+
+.size {
+  width: 10%;
+  position: relative;
+  left: 50px;
+  margin-left: 10px;
+  height: 30px;
+}
